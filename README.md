@@ -16,9 +16,12 @@ To meet specifications in the project, take a look at the requirements in the [p
 
 ## Required Files Overview
 
-images_outputf folder: required images for represent image transfer processes
-test_videos_output folder: required videos output with calculated detected road lanes
+[images_outputf folder](images_output/): required images for represent image transfer processes
+
+[test_videos_output folder](test_videos_output/): required videos output with calculated detected road lanes
+
 check out at youtube [solidWhiteRight](https://www.youtube.com/watch?v=emRGHFijMzM)
+
 check out at youtube [solidYellowLeft](https://www.youtube.com/watch?v=kH-5sEtoxN4)
 
 
