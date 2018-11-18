@@ -16,6 +16,8 @@ To meet specifications in the project, take a look at the requirements in the [p
 
 ## Required Files Overview
 
+[LaneLines.ipynb](LaneLines.ipynb/): required code for processing images
+
 [images_outputf folder](images_output/): required images for represent image transfer processes
 
 [test_videos_output folder](test_videos_output/): required videos output with calculated detected road lanes
