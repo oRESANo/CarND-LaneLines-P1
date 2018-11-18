@@ -39,10 +39,7 @@ For this project, a great writeup should provide a detailed response to the "Ref
   `cv2.imwrite()` to output images to file  
   
   `cv2.bitwise_and()` to apply a mask to an image
-  
-  Belows are the images process as an example:
-  
-  
+ 
 2. Identify any shortcomings
 
   The shortcomings are not from first vedio but from challenge vedios, because there are two many shadow and road lane changing in the vedio, which makes the color filter hard to define the real road lane
@@ -50,4 +47,32 @@ For this project, a great writeup should provide a detailed response to the "Ref
 3. Suggest possible improvements
 
   it may need to involve some more filters to identify the complicated road conditions
+
+## Image Transfer Process
+---
+
+Belows are the images process as an example:
+
+Fist of all change the RGB format to gray format
+
+![](images_output/image_gray.JPG)
+  
+then using the canny funciton via different threshold
+
+![](images_output/edges.JPG)
+
+then using regional area to filter out useless information
+
+![](images_output/regional_edges.JPG)
+
+using hough_line funciton to draw lines on edge
+
+![](images_output/lines.JPG)
+
+at last combine line with original image together
+
+![](images_output/combo.JPG)
+
+
+
 
