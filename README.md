@@ -18,12 +18,15 @@ To meet specifications in the project, take a look at the requirements in the [p
 
 images_outputf folder: required images for represent image transfer processes
 test_videos_output folder: required videos output with calculated detected road lanes
+check out at youtube [solidWhiteRight](https://www.youtube.com/watch?v=emRGHFijMzM)
+check out at youtube [solidYellowLeft](https://www.youtube.com/watch?v=kH-5sEtoxN4)
+
 
 ## Land Lane Pipeline
 
 For this project, a great writeup should provide a detailed response to the "Reflection" section of the [project rubric](https://review.udacity.com/#!/rubrics/322/view). There are three parts to the reflection:
 
-### _Describe the pipeline_
+#### _Describe the pipeline_
 
   Build the pipeline and run your solution on all test_images. Make copies into the `test_images_output` directory, and you can use the   images in your writeup report.
   Try tuning the various parameters, especially the low and high Canny thresholds as well as the Hough lines parameters.
