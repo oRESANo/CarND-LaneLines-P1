@@ -21,6 +21,18 @@ For this project, a great writeup should provide a detailed response to the "Ref
 
 1. Describe the pipeline
 
+  Build the pipeline and run your solution on all test_images. Make copies into the `test_images_output` directory, and you can use the   images in your writeup report.
+  Try tuning the various parameters, especially the low and high Canny thresholds as well as the Hough lines parameters.
+  
+  using the following cv2 functions to create functions:
+  `cv2.inRange()` for color selection  
+  `cv2.fillPoly()` for regions selection  
+  `cv2.line()` to draw lines on an image given endpoints  
+  `cv2.addWeighted()` to coadd / overlay two images
+  `cv2.cvtColor()` to grayscale or change color
+  `cv2.imwrite()` to output images to file  
+  `cv2.bitwise_and()` to apply a mask to an image
+  
 2. Identify any shortcomings
 
 3. Suggest possible improvements
